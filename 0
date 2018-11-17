@@ -1,0 +1,15 @@
+graph {
+	10 [label="10(15)"]
+	5 [label="5(12)"]
+	NIL0 [style=invis]
+	NIL0 [style=invis]
+	5 -- NIL0
+	5 -- NIL0
+	12 [label="12(21)"]
+	NIL0 [style=invis]
+	NIL0 [style=invis]
+	12 -- NIL0
+	12 -- NIL0
+	10 -- 5
+	10 -- 12
+}

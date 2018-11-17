@@ -9,7 +9,7 @@ graph {
 	10 -- 15
 	15 [label="15(21)" fillcolor="#FFFFFF" shape=circle style=filled]
 	15 -- 12
-	12 [label="12(17)" fillcolor="#00FF00" shape=circle style=filled]
+	12 [label="12(37)" fillcolor="00FF00" shape=circle style=filled]
 	12 -- NIL6 [style=invis]
 	NIL6 [style=invis]
 	12 -- NIL7 [style=invis]

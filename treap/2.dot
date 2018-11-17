@@ -1,15 +1,19 @@
-graph 0 {
-    5 -- 4
-        4 -- 3
-        4 -- NIL[style=invis]
-    5 -- 7
-        7 -- 6
-        7 -- NIL[style=invis]
-    
-    5[shape=circle, label="5(3)"]
-    3[shape=circle, label="3(5)"]
-    4[shape=circle, fillcolor="#00FF00", style=filled, label="4(4)"]
-    7[shape=circle, label="7(6)"]
-    6[shape=circle, label="6(10)"]
-    NIL[style="invis"]
+graph {
+	10 [label="10(15)" fillcolor="#FFFFFF" shape=circle style=filled]
+	10 -- 5
+	5 [label="5(12)" fillcolor="#FFFFFF" shape=circle style=filled]
+	5 -- NIL9 [style=invis]
+	NIL9 [style=invis]
+	5 -- NIL10 [style=invis]
+	NIL10 [style=invis]
+	10 -- 12
+	12 [label="12(17)" fillcolor="#00FF00" shape=circle style=filled]
+	12 -- NIL11 [style=invis]
+	NIL11 [style=invis]
+	12 -- 15
+	15 [label="15(21)" fillcolor="#FFFFFF" shape=circle style=filled]
+	15 -- NIL12 [style=invis]
+	NIL12 [style=invis]
+	15 -- NIL13 [style=invis]
+	NIL13 [style=invis]
 }
