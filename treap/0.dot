@@ -1,15 +1,7 @@
 graph {
 	10 [label="10(15)" fillcolor="#FFFFFF" shape=circle style=filled]
 	10 -- 5
-	5 [label="5(12)" fillcolor="#FFFFFF" shape=circle style=filled]
-	5 -- NIL0 [style=invis]
+	5 [label="5(16)" fillcolor="#FFFFFF" shape=circle style=filled]
+	10 -- NIL0 [style=invis]
 	NIL0 [style=invis]
-	5 -- NIL1 [style=invis]
-	NIL1 [style=invis]
-	10 -- 15
-	15 [label="15(21)" fillcolor="#FFFFFF" shape=circle style=filled]
-	15 -- NIL2 [style=invis]
-	NIL2 [style=invis]
-	15 -- NIL3 [style=invis]
-	NIL3 [style=invis]
 }

@@ -2,6 +2,10 @@ graph {
 	10 [label="10(15)" fillcolor="#FFFFFF" shape=circle style=filled]
 	10 -- 5
 	5 [label="5(16)" fillcolor="#FFFFFF" shape=circle style=filled]
-	10 -- 15
+	10 -- 12
+	12 [label="12(17)" fillcolor="#00FF00" shape=circle style=filled]
+	12 -- NIL2 [style=invis]
+	NIL2 [style=invis]
+	12 -- 15
 	15 [label="15(21)" fillcolor="#FFFFFF" shape=circle style=filled]
 }

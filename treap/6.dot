@@ -1,0 +1,15 @@
+graph {
+	11 [label="11(12)" fillcolor="#00FF00" shape=circle style=filled]
+	11 -- 10
+	10 [label="10(15)" fillcolor="#FFFFFF" shape=circle style=filled]
+	10 -- 5
+	5 [label="5(16)" fillcolor="#FFFFFF" shape=circle style=filled]
+	10 -- NIL5 [style=invis]
+	NIL5 [style=invis]
+	11 -- 12
+	12 [label="12(17)" fillcolor="#FFFFFF" shape=circle style=filled]
+	12 -- NIL6 [style=invis]
+	NIL6 [style=invis]
+	12 -- 15
+	15 [label="15(21)" fillcolor="#FFFFFF" shape=circle style=filled]
+}
